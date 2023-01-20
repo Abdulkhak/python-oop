@@ -39,8 +39,4 @@ class Timer:
     def resume(self):
         self._stopped = True
         self.start()
-   
-
-t = Timer(0,0,5)
-t.start()
-t.stop()
+        

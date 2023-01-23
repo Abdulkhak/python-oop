@@ -14,8 +14,9 @@ class Timer:
         if self.__second <= 0:
             self.__stopped = True
             self.__second = 0
-            self.__start_time = None
             self.expired = True
+            self.__start_time = None
+
             
     def is_running(self):
         if self.expired:

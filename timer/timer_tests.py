@@ -72,6 +72,6 @@ class TestTimer(unittest.TestCase):
         t.start()
         self.assertEqual(t.get_time(), 0, "Timer should have expired after 20 seconds")
         self.assertFalse(t.is_running(), "Should not be running after time expires")
-       
+        
 if __name__ == '__main__':
     unittest.main()
